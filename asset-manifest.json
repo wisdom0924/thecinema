@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/thecinema/static/css/main.5ed6de97.chunk.css",
-    "main.js": "/thecinema/static/js/main.09dd85df.chunk.js",
-    "main.js.map": "/thecinema/static/js/main.09dd85df.chunk.js.map",
+    "main.js": "/thecinema/static/js/main.a446d407.chunk.js",
+    "main.js.map": "/thecinema/static/js/main.a446d407.chunk.js.map",
     "runtime-main.js": "/thecinema/static/js/runtime-main.d48dd22b.js",
     "runtime-main.js.map": "/thecinema/static/js/runtime-main.d48dd22b.js.map",
     "static/js/2.13789b31.chunk.js": "/thecinema/static/js/2.13789b31.chunk.js",
     "static/js/2.13789b31.chunk.js.map": "/thecinema/static/js/2.13789b31.chunk.js.map",
     "index.html": "/thecinema/index.html",
-    "precache-manifest.78b9931dfc44a792a28fd52d833f6c01.js": "/thecinema/precache-manifest.78b9931dfc44a792a28fd52d833f6c01.js",
+    "precache-manifest.04955d4fb6f9ad5e26e8a2358dd0fc09.js": "/thecinema/precache-manifest.04955d4fb6f9ad5e26e8a2358dd0fc09.js",
     "service-worker.js": "/thecinema/service-worker.js",
     "static/css/main.5ed6de97.chunk.css.map": "/thecinema/static/css/main.5ed6de97.chunk.css.map",
     "static/js/2.13789b31.chunk.js.LICENSE.txt": "/thecinema/static/js/2.13789b31.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d48dd22b.js",
     "static/js/2.13789b31.chunk.js",
     "static/css/main.5ed6de97.chunk.css",
-    "static/js/main.09dd85df.chunk.js"
+    "static/js/main.a446d407.chunk.js"
   ]
 }
