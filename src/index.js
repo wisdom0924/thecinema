@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import GlobalStyles from './GlobalStyles';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={window.location.pathname || 'thecinema'}>
     <GlobalStyles />
     <App />
   </BrowserRouter>,
