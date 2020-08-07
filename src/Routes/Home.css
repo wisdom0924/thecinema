@@ -1,0 +1,64 @@
+.wrapper {
+  margin-top: 50px;
+}
+
+.wrapper .loader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: #cc95c0;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#7aa1d2), color-stop(#dbd4b4), to(#cc95c0));
+  background: linear-gradient(to right, #7aa1d2, #dbd4b4, #cc95c0);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.wrapper .loader .loading__text {
+  color: #fff;
+}
+
+.wrapper .listBlock {
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+.wrapper .listBlock:nth-child(2n) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.wrapper .listBlock .container {
+  max-width: 1320px;
+  margin: 0 auto 50px;
+}
+
+.wrapper .listBlock .container .movie__list {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+@media screen and (max-width: 1090px) {
+  .movie__list img {
+    max-width: 50px;
+  }
+}
+/*# sourceMappingURL=Home.css.map */
