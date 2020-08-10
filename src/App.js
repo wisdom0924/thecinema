@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, NavLink, Switch, Link } from 'react-router-dom'; //1)
 import Home from './Routes/Home';
 import TV from './Routes/TV';
+import Search from './Routes/Search';
 import Detail from './Routes/Detail';
 import styled from 'styled-components';
 import DetailTV from './Routes/DetailTV';
@@ -89,10 +90,9 @@ function App() {
           </NavLink>
         </li>
         <li className="search">
-          <form>
-            <input type="text" placeholder="Search..." />
-            {/* value={this.props.filterText} onChange={this.handleFilterTextChange}  */}
-          </form>
+          <NavLink to="/search" activeStyle={activestyle}>
+            search
+          </NavLink>
         </li>
       </Header>
       <Switch>
@@ -100,6 +100,7 @@ function App() {
         <Route path="/tv" exact component={TV} />
         <Route path="/movie/:id" component={Detail} />
         <Route path="/tv/:id" component={DetailTV} />
+        <Route path="/search" component={Search} />
         <Route
           render={({ location }) => (
             <div>
@@ -114,3 +115,13 @@ function App() {
 }
 
 export default App;
+
+/*
+<li className="search">
+          <form>
+            <input type="text" placeholder="Search..." />
+            // {/* value={this.props.filterText} onChange={this.handleFilterTextChange}  */
+//             </form>
+//             </li>
+
+// */

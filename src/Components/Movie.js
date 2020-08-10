@@ -8,7 +8,7 @@ Movie.propTypes = {
   title: PropTypes.string.isRequired,
   lang: PropTypes.string.isRequired,
   overview: PropTypes.string.isRequired,
-  poster: PropTypes.string.isRequired,
+  poster: PropTypes.string,
   date: PropTypes.string.isRequired,
   rating: PropTypes.number.isRequired,
   genres: PropTypes.arrayOf(PropTypes.number).isRequired,
@@ -32,7 +32,9 @@ function Movie({ id, title, lang, overview, poster, date, rating, genres, backdr
           },
         }}
       >
-        <img src={`https://image.tmdb.org/t/p/w500${poster}`} alt={title} title={title}></img>
+        {/* <img src={`https://image.tmdb.org/t/p/w500${poster}`} alt={title} title={title}></img> */}
+
+        <img src={poster ? `https://image.tmdb.org/t/p/w500${poster}` : require('../assets/noPoster.png')} alt={title} title={title} />
         <div className="list__text">
           <h5>{title}</h5>
           <span>★{rating}</span>
